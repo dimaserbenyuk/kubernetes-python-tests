@@ -1,6 +1,7 @@
 from kubernetes import client, config
 
 
+
 def test_example():
 # Configs can be set in Configuration class directly or using helper utility
     config.load_kube_config()
